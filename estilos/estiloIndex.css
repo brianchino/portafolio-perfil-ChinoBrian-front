@@ -181,7 +181,7 @@ nav{
      font-size: large; 
 }
 .proyecto-tarjeta:hover{
-    background-color: rgb(42, 57, 223);
+    background-color: rgb(134, 143, 242);
     color:white;
     transform: scale(1.1,1.1);
     transition: all 0.5s ease;
@@ -190,7 +190,7 @@ nav{
     color: white;
 }
 .proyecto-tarjeta:hover h3{
-
+    color:white;
     border-bottom: 3px solid white;
 }
 /* ------------------------------------------------- */
@@ -207,6 +207,7 @@ nav{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     border: 1px solid #333; 
+    padding: 10px;
 }
 input[name="mail"],input[name="asunto"],textarea {
     margin: 20px;
@@ -230,7 +231,7 @@ input[type="submit"]{
     color:white;
     border:none;
     border-radius: 20px;
-    margin-bottom: 20px;
+    
     background-color: #1d1a1a;
 }
 input[type="submit"]:hover{
@@ -359,7 +360,19 @@ input[type="submit"]:active{
     }
     #proyectos{
         grid-template-columns: 1fr 1fr;
-    }    
+    }
+    .proyecto-tarjeta h3{
+        font-size: large;
+    }
+    .proyecto-tarjeta p{
+        font-size: medium;
+        
+    } 
+    input[name="mail"],input[name="asunto"],textarea {
+        margin: 10px;
+        padding: 10px;
+        width: 80%;
+    }  
 }
 
 
