@@ -39,6 +39,7 @@ nav{
 /* secciones de cada tema */
 /* ---------------------- */
 .seccion {
+    padding: 2em;
     min-height: 100vh;
     margin-left:15em;
     border-top: 5em solid white;
@@ -341,6 +342,20 @@ input[type="submit"]:active{
     #inicio section h1{
         font-size:2em;
         text-align: center;
+    }
+    #acercaDeMi{
+        display: grid;
+        grid-template: 1fr 1.5fr/ 1fr;
+        grid-column-gap: 100px;
+    }
+    #acercaDeMi img{
+        
+        width: 50%;
+        min-width: 250px;
+        box-shadow: 20px 20px 5px rgb(79, 110, 236);
+    }
+    #acercaDeMi p{
+        margin: 1em 0;
     }
     #proyectos{
         grid-template-columns: 1fr 1fr;
