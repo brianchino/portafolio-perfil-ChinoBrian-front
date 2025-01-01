@@ -318,6 +318,19 @@ input[type="submit"]:active{
         
         font-size: medium;
     }
+    .navegacion:active{
+        color:white;
+        background-color: rgb(70, 70, 70);
+        box-shadow: 0px 0px 10px black;
+            
+    }
+    .navegacion:hover{
+        color:inherit;
+        background-color: inherit;
+        box-shadow: inherit;
+        
+        
+    }
     #inicio{
         display:grid;
         grid-template: 1fr 1.5fr / 1fr ;
@@ -380,19 +393,7 @@ input[type="submit"]:active{
     }  
 }
 @media (hover: none){
-    .navegacion:active{
-        color:white;
-        background-color: rgb(70, 70, 70);
-        box-shadow: 0px 0px 10px black;
-            
-    }
-    .navegacion:hover{
-        color:inherit;
-        background-color: inherit;
-        box-shadow: inherit;
-        
-        
-    }
+    
 }
 
 
