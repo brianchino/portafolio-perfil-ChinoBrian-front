@@ -17,6 +17,7 @@ nav{
     justify-content: space-around;
     text-align: center;
     box-shadow: .25em 0 .5em rgba(0, 0, 0,0.5);
+    
 }
 .navegacion{
     width:100%;
@@ -191,7 +192,7 @@ nav{
 }
 .proyecto-tarjeta:hover h3{
     color:white;
-    border-bottom: 3px solid white;
+    
 }
 /* ------------------------------------------------- */
 #contactame h3 {
@@ -305,7 +306,7 @@ input[type="submit"]:active{
         height: 3em;
         padding: 0;
         flex-direction: row;
-        
+        z-index: 1000;
         
     }
     .navegacion{
@@ -360,6 +361,9 @@ input[type="submit"]:active{
     }
     #proyectos{
         grid-template-columns: 1fr 1fr;
+    }
+    .proyecto-tarjeta:hover{
+        z-index: 1;
     }
     .proyecto-tarjeta h3{
         font-size: large;
