@@ -379,6 +379,21 @@ input[type="submit"]:active{
         width: 80%;
     }  
 }
+@media (hover: none){
+    .navegacion:active{
+        color:white;
+        background-color: rgb(70, 70, 70);
+        box-shadow: 0px 0px 10px black;
+            
+    }
+    .navegacion:hover{
+        color:inherit;
+        background-color: inherit;
+        box-shadow: inherit;
+        
+        
+    }
+}
 
 
 
