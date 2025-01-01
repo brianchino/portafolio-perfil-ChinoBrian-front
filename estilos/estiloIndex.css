@@ -27,7 +27,7 @@ nav{
     color:gray;
     margin: auto;
     font-size: x-large;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 .navegacion:hover{
@@ -252,6 +252,20 @@ input[type="submit"]:active{
     }
     .navegacion{
         font-size: large;
+        
+    }
+    .navegacion:active{
+        color:white;
+        background-color: rgb(70, 70, 70);
+        box-shadow: 0px 0px 10px black;
+           
+    }
+    .navegacion:hover{
+        color:none;
+        background-color: none;
+        box-shadow: none;
+        
+        
     }
     .seccion {  
         margin-left:10em;
@@ -318,16 +332,16 @@ input[type="submit"]:active{
         
         font-size: medium;
     }
-    .navegacion:active{
+     .navegacion:active{
         color:white;
         background-color: rgb(70, 70, 70);
         box-shadow: 0px 0px 10px black;
             
-    }
+    } 
     .navegacion:hover{
-        color:inherit;
-        background-color: inherit;
-        box-shadow: inherit;
+        color:none;
+        background-color: none;
+        box-shadow: none;
         
         
     }
@@ -391,9 +405,6 @@ input[type="submit"]:active{
         padding: 10px;
         width: 80%;
     }  
-}
-@media (hover: none){
-    
 }
 
 
